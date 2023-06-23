@@ -1,12 +1,14 @@
 # Employee Tracker
 
-## Your Task
+## Description
 
-Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. Your assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
 
-Because this Challenge will require the use of the `Inquirer` package, ensure that you install and use Inquirer version 8.2.4. To do so, use the following command in your project folder: `npm i inquirer@8.2.4`.
+This project aimed to create an interactive employee management system that parsed data from a SQL database and displayed it in the console.
 
-Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
+This project will require several packages which include: inquirer(v8.2.4), mysql2(v3.4.0), and express(v4.18.2). Please make sure to use the 'npm' command in the CLI to install the neccessary packages.
+
+Please take a look at the following screenshots to see how this application works: https://docs.google.com/document/d/1jyScp4ewZ6sisAuqc0pAPlXIqfsQx6qauyqtBhtlujY/edit?usp=sharing
+
 
 ## User Story
 
@@ -15,6 +17,7 @@ AS A business owner
 I WANT to be able to view and manage the departments, roles, and employees in my company
 SO THAT I can organize and plan my business
 ```
+
 
 ## Acceptance Criteria
 
@@ -38,4 +41,7 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
 
+
+## License
+MIT License
 
