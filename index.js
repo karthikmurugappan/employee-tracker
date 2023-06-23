@@ -152,7 +152,7 @@ const addRole = () => {
         .prompt([
         {
             type: "input",
-            name: "role",
+            name: "title",
             message: "What is the name of the Role? ",
         },
         {
@@ -169,7 +169,7 @@ const addRole = () => {
         .then((response) => {
             db.query("INSERT INTO roles SET ?",
                 {
-                    role: response.role,
+                    title: response.title,
                     salary: response.salary,
                     department_id: response.department_id,
                 },
